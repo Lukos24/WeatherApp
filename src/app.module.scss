@@ -1,0 +1,40 @@
+.app {
+height: 100vh;
+// padding-block: 60px;
+display: flex;
+justify-content: center;
+align-items:center;
+
+
+}
+
+.content {
+    width: 800px;    
+    border: 60px;
+    padding: 60px 60px;
+    border-radius: 10px;
+    opacity: 1;
+    background-image: url('../public/image1.png');
+    background-position: 15%;
+    -webkit-box-shadow: -5px -5px 40px -5px rgba(34, 68, 80, 0.6);
+    -moz-box-shadow: -5px -5px 40px -5px rgba(34, 68, 80, 0.6);
+    box-shadow: -5px -5px 40px -5px rgba(34, 68, 80, 0.6);
+    p {
+        margin: 10px 0px;
+            }
+
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border-radius: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-stretch: ultra-expanded;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(9, 4, 250)
+    }

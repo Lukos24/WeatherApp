@@ -1,0 +1,13 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(9, 4, 250);
+
+    h1{
+        margin: 0;
+    }
+}

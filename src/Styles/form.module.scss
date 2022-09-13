@@ -1,0 +1,41 @@
+.input{
+    display: inline-block;  
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    margin: 20px;
+      
+}
+
+.input:focus{-webkit-box-shadow: 0px 0px 32px 0px rgba(10, 134, 169, 0.48);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(10, 134, 169, 0.48);
+    box-shadow: 0px 0px 32px 0px rgba(10, 134, 169, 0.48);}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    }
+
+.button{
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    background-color: rgba(43, 43, 218, 0.8);
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.button:active{
+    background-color: rgba(43, 43, 218);
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(10, 134, 169, 0.48);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(10, 134, 169, 0.48);
+    box-shadow: 0px 0px 32px 0px rgba(10, 134, 169, 0.48);
+}

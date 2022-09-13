@@ -1,0 +1,30 @@
+.weatherInfo {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 250px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 900;
+font-stretch: ultra-expanded;
+font-size: 24px;
+color: rgb(9, 4, 250)
+}
+
+.locImage{
+    height: 24px;
+    width: 22px;
+}
+
+.loading{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 250px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 100px;
+color: rgb(112, 170, 204)
+}
+
+
